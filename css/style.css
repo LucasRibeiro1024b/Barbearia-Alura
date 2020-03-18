@@ -152,6 +152,10 @@ td, th {
     padding: 8px 15px;
 }
 
+footer {
+  margin-top: 0;
+}
+
 /* index css */
 .banner {
     width: 100%;
@@ -217,7 +221,7 @@ td, th {
 }
 
 .beneficios {
-  padding 3em 0;
+  padding: 3em 0;
   background: #888888;
 }
 
@@ -246,6 +250,13 @@ td, th {
 
 .imagem-beneficio {
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 20px #000000;
+}
+
+.imagem-beneficio:hover {
+  opacity: 0.3;
 }
 
 .video {
