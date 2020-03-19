@@ -21,14 +21,14 @@ nav {
 
 nav li {
     display: inline;
-    margin: 0 0 0 20px;
+    margin: 0 10px 0 10px;
 }
 
 nav a {
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
     text-decoration: none;
 }
 
@@ -92,10 +92,6 @@ footer {
     color:#FFFFFF;
     font-size: 13px;
     margin-top: 20px;
-}
-
-main {
-
 }
 
 form {
@@ -167,7 +163,7 @@ footer {
     margin: 0 0 1em;
     clear: left;
 }
-
+/*
 .titulo-principal:first-letter {
   font-weight: bold;
 }
@@ -179,7 +175,7 @@ footer {
 .titulo-principal:after {
   content: " ]";
 }
-
+*/
 .principal {
   padding: 3em 0;
   background: #FEFEFE;
@@ -275,9 +271,21 @@ footer {
 
   nav {
     position: static;
+    padding: 0 0.2em 0 0.2em;
+  }
+
+  nav li {
+    margin: 0 5px 0 5px;
+    font-size: 1em;
+  }
+
+  .conteudo-beneficios {
+    padding: 1.5em;
   }
 
   .lista-beneficios, .imagem-beneficio {
-    width: 100%;
+    width: 95%;
+    margin: 0 auto 20px auto;
   }
+
 }
