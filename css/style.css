@@ -261,7 +261,7 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-  .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+  .caixa, .principal, .conteudo-beneficios, .mapa-conteudo{
     width: auto;
   }
 
@@ -284,8 +284,11 @@ footer {
   }
 
   .lista-beneficios, .imagem-beneficio {
-    width: 95%;
+    width: 100%;
     margin: 0 auto 20px auto;
   }
 
+  .video {
+    width: 90%;
+  }
 }
